@@ -133,6 +133,25 @@ header.special:after {
   margin: 0 auto;
 }
 
+/* Mobile font size reductions for inner pages */
+@media screen and (max-width: 736px) {
+  body:not(.index) #main header.special h2 {
+    font-size: 1.4em !important;
+  }
+
+  body:not(.index) .wrapper.style4 .content,
+  body:not(.index) .wrapper.style4 .content p,
+  body:not(.index) .wrapper.style4 .content div,
+  body:not(.index) .wrapper.style4 .content li {
+    font-size: 0.9em !important;
+    line-height: 1.8 !important;
+  }
+
+  body:not(.index) .wrapper.style4 {
+    padding: 2em 1.2em !important;
+  }
+}
+
 .straight-border {
   border: 1px solid #cccccc !important;
   filter: none !important;
