@@ -2,6 +2,7 @@
 layout: page
 title: Appendage
 date: 2026-03-15
+contributor: Jayesh Bhatt
 ---
 
 <!-- Full page styling -->
@@ -29,6 +30,10 @@ date: 2026-03-15
          style="max-width: 100%; height: auto; border-radius: 10px;">
   </div>
 
+  <!-- Contributor info -->
+  <p style="text-align: right; color: #000000; margin-top: 5px; font-family: 'Noto Sans Devanagari', Georgia, serif; font-size: 1.2em;">
+    Illustration by: Jayesh Bhatt
+  </p>
   <!-- Date at the bottom, right -->
   <p style="text-align: right; color: #000000; margin-top: 40px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
     — {{ page.date | date: "%-d" }} March, {{ page.date | date: "%Y" }}
