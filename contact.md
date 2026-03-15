@@ -96,17 +96,41 @@ permalink: /contact/
       helloWord.textContent = greetings[greetIndex];
     }, 700);
   </script>
-  <!-- Email -->
+  <!-- Intro -->
   <p class="handwritten" style="text-align: center;">
     I am a PhD student at the Institute for Neurobiology, University of Tuebingen, Germany.<br>
-    You can reach me at—
+    Drop me a message and I'll write back!
   </p>
 
-  <p style="text-align: center; font-size: 1.3em; font-weight: bold; font-family: 'Chathura', sans-serif;">
-    <a href="mailto: ignorants.pb@gmail.com" style="color: #000000; text-decoration: none; font-family: 'Chathura', sans-serif; font-size: 1.3em;">
-      ignorants.pb@gmail.com
-    </a>
-  </p>
+  <!-- Contact Form -->
+  <form action="https://formspree.io/f/xbdzawpj" method="POST" style="max-width: 560px; margin: 30px auto 0; font-family: 'EB Garamond', Georgia, serif;">
+
+    <div style="margin-bottom: 18px;">
+      <label style="display: block; font-size: 0.95em; color: #48474c; margin-bottom: 6px;">Your name</label>
+      <input type="text" name="name" required
+        style="width: 100%; padding: 10px 14px; border: 1px solid #cccccc; border-radius: 4px; font-family: 'EB Garamond', Georgia, serif; font-size: 1em; background: rgba(255,255,255,0.7); box-sizing: border-box;">
+    </div>
+
+    <div style="margin-bottom: 18px;">
+      <label style="display: block; font-size: 0.95em; color: #48474c; margin-bottom: 6px;">Your email</label>
+      <input type="email" name="email" required
+        style="width: 100%; padding: 10px 14px; border: 1px solid #cccccc; border-radius: 4px; font-family: 'EB Garamond', Georgia, serif; font-size: 1em; background: rgba(255,255,255,0.7); box-sizing: border-box;">
+    </div>
+
+    <div style="margin-bottom: 24px;">
+      <label style="display: block; font-size: 0.95em; color: #48474c; margin-bottom: 6px;">Message</label>
+      <textarea name="message" rows="6" required
+        style="width: 100%; padding: 10px 14px; border: 1px solid #cccccc; border-radius: 4px; font-family: 'EB Garamond', Georgia, serif; font-size: 1em; background: rgba(255,255,255,0.7); resize: vertical; box-sizing: border-box;"></textarea>
+    </div>
+
+    <div style="text-align: center;">
+      <button type="submit"
+        style="background-color: #3a9a8f; color: #ffffff; border: none; padding: 12px 36px; font-family: 'Chathura', sans-serif; font-size: 1.1em; border-radius: 4px; cursor: pointer; letter-spacing: 0.05em;">
+        Send
+      </button>
+    </div>
+
+  </form>
 
 </div>
 </div>
