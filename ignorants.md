@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: IgnoRants
 permalink: /ignorants/
 ---
@@ -69,6 +69,7 @@ permalink: /ignorants/
     line-height: 1.6;
     margin-bottom: 0;
     white-space: pre-line;
+    color: #000000;
   }
 
   .rant-content p {
@@ -85,11 +86,7 @@ permalink: /ignorants/
   }
 </style>
 
-<div class="rant-intro straight-border">
-  <h1 style="font-family: 'Montserrat', 'Cardo', serif; font-weight: 700; color: #700000; font-size: 56px; margin-bottom: 0; line-height:1; letter-spacing: 0.04em;">
-    IgnoRants
-  </h1>
-</div>
+<!-- rant-intro moved to page header -->
 
 <div style="max-width: 700px; margin: 0 auto;">
   {% assign ignorants_posts = site.IgnoRants | sort: "date" | reverse %}

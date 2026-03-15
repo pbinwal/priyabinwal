@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: "Curated Medium Articles"
 date: 2021-04-23
 image: "/assets/images/medium_3am.jpg"
@@ -14,3 +14,4 @@ excerpt: "Check out some of my early writings for the Medium publication— Pred
 </div>
 
 {{ page.excerpt }} <a href="{{ page.link }}" target="_blank" rel="noopener noreferrer">Read more</a>
+

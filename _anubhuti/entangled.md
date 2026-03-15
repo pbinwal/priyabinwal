@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Entangled 
 date: 2025-12-06
 contributor: Jayesh Bhatt
@@ -7,11 +7,6 @@ contributor: Jayesh Bhatt
 
 <!-- Full page styling -->
 <div style="background-color: transparent; color: #000000; min-height: 100vh; padding: 50px 20px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
-
-  <!-- Centered title -->
-  <h1 style="text-align: center; font-weight: bold; color: #700000; margin-bottom: 20px;">
-    {{ page.title }}
-  </h1>
 
   <p style="text-align: center; color: #000000; margin-top: 5px; font-family: 'Noto Sans Devanagari', Georgia, serif; font-size: 1.2em;">
   Bereft of the world, when only the heart holds sway, <br>

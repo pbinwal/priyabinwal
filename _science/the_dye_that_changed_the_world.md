@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: "The Dye that Changed the World"
 date: 2021-05-01
 image: "/assets/images/the_dye_that_changed_the_world.jpg"
@@ -14,3 +14,4 @@ excerpt: "A short piece detailing the story behind the discovery of the world's 
 </div>
 
 {{ page.excerpt }} <a href="{{ page.link }}" target="_blank" rel="noopener noreferrer">Read more</a>
+

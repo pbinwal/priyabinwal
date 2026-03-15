@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Contact
 permalink: /contact/
 ---
@@ -15,11 +15,6 @@ permalink: /contact/
 <!-- Page container -->
 <div class="straight-border" style="background-color: transparent; color: #000000; padding: 50px 20px; font-family: 'EB Garamond', Georgia, serif; font-size: 21px; max-width: 900px; margin: 40px auto; border-radius: 0px; border: none; position: relative;">
 <div style="position: relative; z-index: 1;">
-
-  <!-- Title -->
-  <h1 style="text-align: center; font-family: 'Montserrat', 'Cardo', serif; font-weight: 700; color: #700000; font-size: 48px; margin-bottom: 20px; letter-spacing: 0.04em;">
-    Contact
-  </h1>
 
   <!-- Photo -->
 <div style="text-align: center; margin-bottom: 30px;">

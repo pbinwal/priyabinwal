@@ -1,0 +1,16 @@
+﻿---
+layout: default
+body_class: is-preload
+---
+
+<article id="main">
+  <header class="special container">
+    <h2 style="font-size: 2.2em; letter-spacing: 0.05em;">{{ page.title }}</h2>
+    {% if page.subtitle %}<p style="font-size: 1.1em; color: #48474c; margin-top: -1.2em;">{{ page.subtitle }}</p>{% endif %}
+  </header>
+  <section class="wrapper style4 container">
+    <div class="content">
+      {{ content }}
+    </div>
+  </section>
+</article>

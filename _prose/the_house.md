@@ -1,16 +1,11 @@
 ---
-layout: home
+layout: page
 title: The House
 date: 2021-05-30
 ---
 
 <!-- Full page styling -->
 <div style="background-color: transparent; color: #000000ff; min-height: 100vh; padding: 50px 20px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
-
-  <!-- Centered poem title -->
-  <h1 style="text-align: center; font-weight: bold; color: #700000; margin-bottom: 40px; font-size: 36px;">
-    {{ page.title }}
-  </h1>
 
   <!-- Centered poem text -->
   <div style="text-align: left; line-height: 2;">
@@ -53,7 +48,7 @@ date: 2021-05-30
   </div>
   <!-- Date at the bottom, right -->
     <p style="text-align: right; font-size: 20px; color: #ffffff; margin-top: 40px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
-    — {{ page.date | date: "%-d" }} जनवरी, {{ page.date | date: "%Y" }}
+    — {{ page.date | date: "%-d" }} à¤œà¤¨à¤µà¤°à¥€, {{ page.date | date: "%Y" }}
     </p>
 
 

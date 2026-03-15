@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: "Lise Meitner: The unknown female scientist behind Nuclear Fission"
 date: 2022-09-05
 image: "/assets/images/lise_meitner.jpg"
@@ -14,3 +14,4 @@ excerpt: "A short piece about Lise Meitner and her contributions to nuclear phys
 </div>
 
 {{ page.excerpt }} <a href="{{ page.link }}" target="_blank" rel="noopener noreferrer">Read more</a>
+

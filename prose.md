@@ -1,6 +1,7 @@
 ---
-layout: home
-title: Poetry and Prose
+layout: page
+title: Flow
+subtitle: A Curation of Poetry and Prose
 permalink: /prose/
 ---
 
@@ -83,15 +84,7 @@ permalink: /prose/
   }
 </style>
 
-<div class="prose-intro straight-border">
-  <!-- Centered page title -->
-  <h1 style="text-align: center; font-family: 'Montserrat', 'Cardo', serif; font-weight: 700; color: #700000; font-size: 56px; margin-bottom: 0px; line-height:1; letter-spacing: 0.04em;">
-    Flow
-  </h1>
-  <p style="text-align: center; color: #48474cff; margin-bottom: 0; line-height:1;">
-    A Curation of Poetry and Prose
-  </p>
-</div>
+<!-- prose-intro moved to page header -->
 
 <!-- List all poems -->
 {% assign poems = site.prose | sort: "date" | reverse %}

@@ -1,6 +1,7 @@
 ---
-layout: home
+layout: page
 title: Anubhuti
+subtitle: A Feeling Beyond Words
 permalink: /anubhuti/
 ---
 
@@ -88,15 +89,7 @@ permalink: /anubhuti/
   }
 </style>
 
-<div class="anubhuti-intro straight-border">
-  <!-- Centered page title -->
-  <h1 style="text-align: center; font-family: 'Montserrat', 'Cardo', serif; font-weight: 700; color: #700000; font-size: 56px; margin-bottom: 0px; line-height:1; letter-spacing: 0.04em;">
-    Anubhuti
-  </h1>
-  <p style="text-align: center; color: #48474cff; margin-bottom: 0;line-height:1;">
-    A Feeling Beyond Words
-  </p>
-</div>
+<!-- anubhuti-intro moved to page header -->
 
 
 <!-- List all art -->

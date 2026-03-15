@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Rainbow
 date: 2017-10-01
 ---
@@ -8,10 +8,7 @@ date: 2017-10-01
 <!-- Full page styling -->
 <div style="background-color: transparent; color: #000000ff; min-height: 100vh; padding: 50px 20px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
 
-  <!-- Centered poem title -->
-  <h1 style="text-align: center; font-weight: bold; color: #700000; margin-bottom: 0px; font-size: 36px;">
-    {{ page.title }}
-  </h1>
+
 
     <!-- Subtitle below title -->
   <h2 style="text-align: center; font-weight: normal; color: #333333; margin-bottom: 40px; font-size: 22px;">
@@ -100,7 +97,7 @@ date: 2017-10-01
 
   </div>
   <!-- Date at the bottom, right -->
-    <p style="text-align: right; font-size: 20px; color: #ffffff; margin-top: 40px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
+    <p style="text-align: right; font-size: 20px; color: #000000ff; margin-top: 40px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
     — {{ page.date | date: "%-d" }} जनवरी, {{ page.date | date: "%Y" }}
     </p>
 

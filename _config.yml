@@ -34,6 +34,29 @@ theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
+# Default layouts for collection items
+defaults:
+  - scope:
+      path: ""
+      type: "prose"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "science"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "anubhuti"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "IgnoRants"
+    values:
+      layout: "page"
+
 # Collections
 # Collections
 collections:

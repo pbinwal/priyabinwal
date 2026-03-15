@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Finding sun above the clouds 
 date: 2026-01-06
 ---
@@ -31,14 +31,9 @@ document.addEventListener('keydown', function(event) {
 <!-- Full page styling -->
 <div style="background-color: transparent; color: #000000ff; min-height: 100vh; padding: 50px 20px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
 
-  <!-- Centered title -->
-  <h1 style="text-align: center; font-weight: bold; color: #700000; margin-bottom: 40px; font-size: 36px;">
-    {{ page.title }}
-  </h1>
-
   <!-- Centered text -->
   <div style="text-align: left; line-height: 2;">
-  Somewhere on the runway of the airport of Valencia, I turned 24 ( I was born in the afternoon, I've been told). As I stared out of the window of the Ryanair aircraft I was now aboard, waiting for it to take off, it struck me that Ryanair narrowly missed being a palindrome by not replacing the <em>i</em> with a <em>y</em>. Or the <em>y</em> with an <em>i</em>— though <em>Ryan</em> wouldn't have been too happy then, I think. I chuckled to myself thinking that this is exactly the kind of dumb awakening that would, I hope, form the spirit of this blog.<br>
+  Somewhere on the runway of the airport of Valencia, I turned 24 ( I was born in the afternoon, I've been told). As I stared out of the window of the Ryanair aircraft I was now aboard, waiting for it to take off, it struck me that Ryanair narrowly missed being a palindrome by not replacing the '<em>i</em>' with a '<em>y</em>'. Or the '<em>y</em>' with an '<em>i</em>'— though <em>Ryan</em> wouldn't have been too happy then, I think. I chuckled to myself thinking that this is exactly the kind of dumb awakening that would, I hope, form the spirit of this blog.<br>
   <br>
   <div style="float: right; margin: 0 0 20px 20px; max-width: 45%; text-align: center;">
   <img src="{{ site.baseurl }}/assets/images/ryanair.jpg"
@@ -130,5 +125,6 @@ document.addEventListener('keydown', function(event) {
   </p>
   </div>
 </div>
+
 
 

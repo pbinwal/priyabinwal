@@ -1,0 +1,149 @@
+/* ============================================================
+   Custom overrides for the Twenty HTML5UP theme
+   ============================================================ */
+
+/* 1. Remove uppercase text-transform from Twenty */
+body, h1, h2, h3, h4, h5, h6, nav, header, footer, 
+a, p, li, span, div, section, article {
+  text-transform: none !important;
+}
+
+/* Keep nav uppercase if desired — comment out to remove */
+/* #header nav a { text-transform: uppercase !important; } */
+
+/* 2. Watercolour background image */
+body {
+  background-image: url('../images/home_watercolour.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url('../images/home_watercolour_landscape.jpg');
+  }
+}
+
+/* Translucent content panels on inner pages */
+#page-wrapper {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.wrapper.style4 {
+  background-color: rgba(255, 255, 255, 0.55) !important;
+}
+
+.wrapper.style4 .content {
+  background-color: transparent !important;
+}
+
+/* Banner section — translucent white over the watercolour background */
+#banner {
+  background-color: rgba(255, 255, 255, 0.35) !important;
+  background-image: none !important;
+}
+
+#banner .inner {
+  background: rgba(255, 255, 255, 0.55) !important;
+  color: #2c2c2c !important;
+}
+
+#banner .inner header,
+#banner .inner header h2,
+#banner .inner p,
+#banner .inner p a,
+#banner .inner footer,
+#banner .inner .buttons a {
+  color: #2c2c2c !important;
+  border-color: #2c2c2c !important;
+}
+
+/* Remove === border lines above/below banner heading */
+#banner .inner header,
+#banner .inner > header,
+div#banner div.inner header {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  padding: 0 !important;
+  margin-bottom: 1em !important;
+}
+
+#banner .inner header h2,
+#banner .inner > header > h2,
+div#banner div.inner header h2 {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+}
+
+/* Bold page headings (Flow, Anubhuti, IgnoRants, etc.) */
+#main header.special h2,
+#main header.special.container h2 {
+  font-weight: 900 !important;
+  color: #3a9a8f !important;
+}
+
+/* Banner heading font override */
+#banner .inner header h2,
+div#banner div.inner header h2 {
+  font-family: 'Cardo', Georgia, serif !important;
+  letter-spacing: 0.02em !important;
+  font-size: 2em !important;
+  color: #3a9a8f !important;
+  -webkit-text-fill-color: #3a9a8f !important;
+  font-weight: 900 !important;
+}
+
+/* Reduce empty space above page headings */
+#main {
+  padding-top: 2em !important;
+  background-image: none !important;
+}
+
+header.special {
+  padding-top: 2.5em !important;
+  margin-bottom: 2em !important;
+}
+
+header.special:before,
+header.special:after {
+  display: none !important;
+}
+#banner .inner p a {
+  color: #3a9a8f !important;
+  -webkit-text-fill-color: #3a9a8f !important;
+  text-decoration: none;
+}
+
+#banner .inner p a:hover {
+  color: #2d7a70 !important;
+  -webkit-text-fill-color: #2d7a70 !important;
+  text-decoration: underline;
+}
+#banner .inner p + p {
+  margin-top: 1.2em !important;
+}
+
+/* Justified text for the homepage banner paragraph */
+#banner .inner p {
+  text-align: justify !important;
+  letter-spacing: normal !important;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.straight-border {
+  border: 1px solid #cccccc !important;
+  filter: none !important;
+  border-radius: 0 !important;
+}
+
+.prose-poem.straight-border::before,
+.anubhuti.straight-border::before,
+.prose-intro.straight-border::before,
+.anubhuti-intro.straight-border::before,
+.rant.straight-border::before,
+.rant-intro.straight-border::before {
+  display: none !important;
+}

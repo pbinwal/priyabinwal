@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Science
 permalink: /science/
 ---
@@ -118,21 +118,18 @@ permalink: /science/
   }
 </style>
 
-<div class="science-intro straight-border">
-  <!-- Centered page title -->
+<!-- <div class="science-intro straight-border">
   <h1 style="text-align: center; font-family: 'Montserrat', 'Cardo', serif; font-weight: 700; color: #700000; font-size: 56px; margin-bottom: 50px; line-height:1; letter-spacing: 0.04em;">
     The 3AM Page
   </h1>
   <p style="text-align: left; font-weight:bold; font-size: 28px; color: #48474cff; margin-bottom: 5px; line-height:1;">
     Why 3AM?
   </p>
-
-  <!-- Why 3AM text -->
   <p style="text-align: left; color: #48474cff; font-size: 20px; margin-bottom: 0; line-height:1.5;">
     Partly because the name sounded like a really good one when it first occurred to me at 4 (and not 3) AM in the morning.
     Partly because 3 AM stands for <i>An Article A Month</i>— more or less.
   </p>
-</div>
+</div> -->
 
 {% assign sorted_posts = site.science | sort: "date" | reverse %}
 

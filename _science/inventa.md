@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: "And they kept scrolling ever after..."
 date: 2021-02-28
 image: "/assets/images/dopamine.jpg"
