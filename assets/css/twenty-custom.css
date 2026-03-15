@@ -136,7 +136,7 @@ header.special:after {
 /* Mobile font size reductions for inner pages */
 @media screen and (max-width: 736px) {
   body:not(.index) #main header.special h2 {
-    font-size: 1.15em !important;
+    font-size: 1.5em !important;
   }
 
   body:not(.index) .wrapper.style4 .content,
