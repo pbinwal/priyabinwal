@@ -125,7 +125,7 @@ permalink: /contact/
 
     <div style="text-align: center;">
       <button type="submit"
-        style="background-color: #3a9a8f; color: #ffffff; border: none; padding: 12px 36px; font-family: 'Chathura', sans-serif; font-size: 1.1em; border-radius: 4px; cursor: pointer; letter-spacing: 0.05em;">
+        style="background-color: #3a9a8f; color: #ffffff; border: none; padding: 8px 22px; font-family: 'Chathura', sans-serif; font-size: 1.4em; border-radius: 4px; cursor: pointer; letter-spacing: 0.05em;">
         Send
       </button>
     </div>
