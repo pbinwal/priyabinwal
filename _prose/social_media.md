@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: Social Media and an Ulysses Pact
