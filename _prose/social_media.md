@@ -5,7 +5,8 @@ date: 2026-04-18
 ---
 
 
-Thought: Do you know what's common between a 19-year-old posting a story about their post-workout meal and a 49-year-old Indian uncle madly blaring horns on the streets of New Delhi? 1. Both involve two people pushing a button to desperately tell a world that doesn't care—"I exist". 2. Both occur more frequently than one would like to imagine.
+
+<span style="color: #48474c; font-family: 'Montserrat', 'Cardo', serif; font-weight: 700; letter-spacing: 0.04em; font-size: 1.1em;">Thought</span>: Do you know what's common between a 19-year-old posting a story about their post-workout meal on instagram and a 49-year-old Indian uncle madly blaring horns on the streets of New Delhi? 1. Both involve two people pushing a button to desperately tell a world that doesn't care— "I exist". 2. Both occur more frequently than one would like to imagine.
 
 Dear gentle reader,
 
