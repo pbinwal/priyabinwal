@@ -1,3 +1,6 @@
+# Enable GFM (GitHub Flavored Markdown) for kramdown to support strikethrough and other features
+kramdown:
+  input: GFM
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
