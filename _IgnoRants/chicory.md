@@ -11,5 +11,5 @@ date: 2026-04-18
 </style>
 
 <div class="ignorants-ai-prose">
-It's 2026 and I am only just discovering that adding chicory to your oatmeal can both make it taste like coffee and feel a lot creamier.
+It's 2026 and I am only just discovering that adding chicory to your oatmeal can make it both taste like coffee and feel a lot creamier.
 </div>
