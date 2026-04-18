@@ -1,6 +1,9 @@
+
+---
 layout: page
 title: Social Media and an Ulysses Pact
 date: 2026-04-18
+---
 
 <!-- Full page styling -->
 <div style="background-color: transparent; color: #000000ff; min-height: 100vh; padding: 50px 20px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
