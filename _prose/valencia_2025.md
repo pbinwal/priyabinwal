@@ -4,30 +4,6 @@ title: Finding sun above the clouds
 date: 2026-01-06
 ---
 
-<!-- Lightbox Modal -->
-<div id="imageModal" style="display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.9); cursor: pointer;" onclick="closeModal()">
-  <span style="position: absolute; top: 20px; right: 35px; color: #f1f1f1; font-size: 40px; font-weight: bold;">&times;</span>
-  <img id="modalImage" style="margin: auto; display: block; max-width: 90%; max-height: 90%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-</div>
-
-<script>
-function openModal(imgSrc) {
-  document.getElementById('imageModal').style.display = 'block';
-  document.getElementById('modalImage').src = imgSrc;
-}
-
-function closeModal() {
-  document.getElementById('imageModal').style.display = 'none';
-}
-
-// Close modal on ESC key
-document.addEventListener('keydown', function(event) {
-  if (event.key === 'Escape') {
-    closeModal();
-  }
-});
-</script>
-
 <!-- Full page styling -->
 <div style="background-color: transparent; color: #000000ff; min-height: 100vh; padding: 50px 20px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
 
